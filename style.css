@@ -1,0 +1,18 @@
+img.img-logo{
+    width: 90px;
+    height: 62;
+}
+span.text-orange{
+    color: #FFA500;
+}
+span.invert-orange{
+    color: #EAEAEA;
+    font-size: 20px;
+    font-family: montserat;
+    background-color: #fd9c3a;
+    padding: 0px 5px;
+}
+img.d-block{
+    height: 423,23px;
+    width: 385px;
+}
