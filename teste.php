@@ -65,6 +65,30 @@
         </div>
     </div>
   </div>
+  <div class="section-diferentials pt-3">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+            <h3>TENHA UMA FRANQUIA FRISABOR!</h3>
+            <div class="box-diferential">
+                <h4><img src="/Recursos/quality.svg" alt="diferencial-logo" class="icon separator-right">DIFERENCIAIS</h4>
+                <p>Experiência de 60 anos no segmento</p><hr>
+                <p>Mais de 30 sabores disponíveis</p><hr>
+                <p>Operacional simples</p><hr>
+                <p>Produtos com ingredientes de altíssima qualidade</p><hr>
+                <p>Mix que engloba sorvetes, picolés, deliciosas </p><hr>
+                <p>Sobremesa e cafés </p><hr>
+                <p>Qualidade reconhecida</p><
+            </div>
+            <div class="box-diferential">
+                <h4><img src="/Recursos/store.svg" alt="store-logo" class="icon separator-right">CONDIÇÕES</h4>
+                <p>Cidades com mais de 50 mil habitantes</p><hr>
+                <p>Lojas que cabem em ruas, galerias e shoppings (de 30m<sup>2</sup> a 40m<sup>2</sup>)</p><hr>
+                <p>Ser administrado ppelo próprio franqueado (dedicação)</p>
+            </div>
+
+        </div>
+    </div>
+  </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

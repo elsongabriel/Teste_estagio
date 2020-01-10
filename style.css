@@ -16,3 +16,9 @@ img.d-block{
     height: 423,23px;
     width: 385px;
 }
+img.icon.separator-right{
+    width: 56 px;
+    height: 40px;
+    margin: 0px 15px 0px 0px;
+    padding: 0px 15px 0px 0px;
+}
