@@ -1,16 +1,44 @@
+body{
+    background-color: #eaeaea;
+    font-family: Montserrat,sans-serif;
+    font-weight: 500;
+}
+
+.investment-container{
+    font-weight: 500;
+    font-size: 15px;
+    color: #3e4347;
+}
+input, textarea{
+    background-color: #FFFFFF;
+    margin: 10px 0px;
+    padding: 10px 22px;
+}
+
 img.img-logo{
     width: 90px;
     height: 62;
 }
+.btn.btn-submit{
+    background-color: #FFA500;
+    font: #ffffff;
+}
 span.text-orange{
     color: #FFA500;
 }
-span.invert-orange{
-    color: #EAEAEA;
+h4.text-orange{
+    color:#FFA500;
+    margin-bottom: 20px;
     font-size: 20px;
-    font-family: montserat;
+}
+.invert-orange{
+    font-size: 20px;
+    line-height: 60px;
+    color: #eaeaea;
     background-color: #fd9c3a;
-    padding: 0px 5px;
+    padding: 0 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 img.d-block{
     height: 423,23px;
@@ -21,4 +49,27 @@ img.icon.separator-right{
     height: 40px;
     margin: 0px 15px 0px 0px;
     padding: 0px 15px 0px 0px;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+.carousel-indicators .active{
+    background-color: #fd9c3a !important;
+}
+.displaytext--bold{
+    font-size: 60px;
+    letter-spacing: -1px;
+    color: #3e4347;
+    font-weight: 700;
+}
+.sectionheader-text{
+    font-size: 34px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.box-diferential{
+    padding-top: 20px;
+    padding-bottom: 20px;;
 }
