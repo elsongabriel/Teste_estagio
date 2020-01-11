@@ -13,6 +13,11 @@ if(isset($_POST['submit'])){
     $message = $_POST['message'];
 
     //print_r(array($nome, $email, $phone, $profissao, $money, $city, $bairro, $message));
+    dbInsert($nome, $email, $phone, $profissao, $money, $city, $bairro, $message);
+    dbDelete(1);
+
+
+    $table = dbRead();
 }
 
 function dbInsert($nome, $email, $phone, $profissao, $money, $city, $bairro, $message){

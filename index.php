@@ -31,7 +31,7 @@
     <div class="container">
         <div class="row d-flex">
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 order-1">
-                <h1 class="displaytext--bold">SEJA NOSSO FRANQUEADO</h1>
+                <h1 class="displaytext--bold h1">SEJA NOSSO FRANQUEADO</h1>
                 <span class="invert-orange p-1">INVESTIMENTO</span>
                 <div class="row investment-container">
                     <!-- informação sobre o investimento aqui -->
@@ -140,25 +140,21 @@
         </div>
         <div style="width:100%; height: 32rem;" id="map"></div>
   </section>
-  <div class="footer">
-      <div class="container">
-          <div class="row">
-                <div class="copyright pull-left">
-                    <span>&copy;2017 Fisabor. Todos os direitos reservados.</span>
-                </div>
-                <div class="social float-right">
-                    <a href="https://www.facebook.com/FriSabor/" target="_blank">
-                        <!-- icone do facebook -->
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://www.instagram.com/frisabor/" target="_blank">
-                        <!-- icone do insta --> 
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </div>
-            </div>
-      </div>
-  </div>
+  <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <div class="container">
+        &copy;2017 Fisabor. Todos os direitos reservados.
+      <div class="float-right">
+            <a href="https://www.facebook.com/FriSabor/" target="_blank">
+                <!-- icone do facebook -->
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/frisabor/" target="_blank">
+                <!-- icone do insta --> 
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+  </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
