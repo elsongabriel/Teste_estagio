@@ -21,9 +21,7 @@
         <div class="row">
             <div class="col-12">
                 <img src="Recursos/logo-frisabor.png" alt="logo" class="img-logo">
-                <div class="contact">
-                    <!--o telefone vai aqui-->
-                </div>
+                <span class="float-right"><i class="fas fa-phone-alt"></i> <div class="text float-right"><small> ATENDIMENTO  </small> <br> 81 98998-2946</div></span>
             </div>
         </div>
     </div>
@@ -106,17 +104,17 @@
                 </div>
 
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-5 contact-form ml-auto">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-5 contact-form ml-auto font-weight-bold">
                 <h4 class="text-orange">PREENCHA NOSSO FORMULÁRIO</h4>
                 <p>Um de nossos consultores entrará em contanto com você.</p>
                 <form action="apiCrud.php" method="POST" id="contact-form">
                     <div class="form-group">
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Seu Nome" required>
-                        <input type="mail" class="form-control" id="email" name="email" placeholder="Seu E-mail" required>
-                        <input type="text" class="form-control" id="phone" name="phone" placeholder="Seu Telefone" required>
-                        <input type="text" class="form-control" id="occupation" name="occupation" placeholder="Sua Profissão" required>
+                        <input type="text" class="form-control font-weight-bold" id="name" name="name" placeholder="Seu Nome" required>
+                        <input type="mail" class="form-control font-weight-bold" id="email" name="email" placeholder="Seu E-mail" required>
+                        <input type="text" class="form-control font-weight-bold" id="phone" name="phone" placeholder="Seu Telefone" required>
+                        <input type="text" class="form-control font-weight-bold" id="occupation" name="occupation" placeholder="Sua Profissão" required>
                     </div>
-                    <select name="investment_money" id="investment_money" class="form-control c-select">
+                    <select name="investment_money" id="investment_money" class="form-control c-select font-weight-bold">
                         <option value="" selected hidden> Capital disponível para investimento</option>
                         <option value="1000">R$1.000,00</option>
                         <option value="2000">R$2.000,00</option>
@@ -126,10 +124,10 @@
                         <option value="6000">R$6.000,00</option>
                         <option value="7000">R$7.000,00</option>
                     </select>
-                    <input type="text" class="form-control" id="city" name="city" placeholder="Cidade" required>
-                    <input type="text" class="form-control" id="neighborhood" name="neighborhood" placeholder="Bairro" required>
-                    <textarea name="message" id="message" class="form-control textarea" placeholder="Mensagem" required></textarea>
-                    <button type="submit" class="btn btn-submit" name="submit">Enviar</button>
+                    <input type="text" class="form-control font-weight-bold" id="city" name="city" placeholder="Cidade" required>
+                    <input type="text" class="form-control font-weight-bold" id="neighborhood" name="neighborhood" placeholder="Bairro" required>
+                    <textarea name="message" id="message" class="form-control textarea font-weight-bold" placeholder="Mensagem" required></textarea>
+                    <button type="submit" class="btn btn-submit font-weight-bold" name="submit">Enviar</button>
                 </form>
             </div>
         </div>
@@ -144,19 +142,21 @@
   </section>
   <div class="footer">
       <div class="container">
-          <div class="copyright pull-left">
-              <span>&copy;2017 Fisabor. Todos os direitos reservados.</span>
-          </div>
-          <div class="social pull-right">
-            <a href="https://www.facebook.com/FriSabor/" target="_blank">
-                <!-- icone do facebook -->
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://www.intagram.com/frisabor/" target="_blank">
-                <!-- icone do insta --> 
-                <i class="fab fa-instagram"></i>
-            </a>
-          </div>
+          <div class="row">
+                <div class="copyright pull-left">
+                    <span>&copy;2017 Fisabor. Todos os direitos reservados.</span>
+                </div>
+                <div class="social float-right">
+                    <a href="https://www.facebook.com/FriSabor/" target="_blank">
+                        <!-- icone do facebook -->
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.intagram.com/frisabor/" target="_blank">
+                        <!-- icone do insta --> 
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
       </div>
   </div>
 
@@ -164,7 +164,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script type="text/javascript"
-        src="https://maps.googleapis.com/maps/api/js?libraries=visualization&key=AIzaSyDz8F4P0ghBpshvYT9fTO5dqx8cETrNGa8"></script>
+        src="https://maps.googleapis.com/maps/api/js?libraries=visualization&key=AIzaSyCGZVipN-cpMXkFLSdgelAuO37mjXnP8uQ"></script>
     <script>
         function initMap() {
             var myLatlng = new google.maps.LatLng(-8.064192, -34.871640);
