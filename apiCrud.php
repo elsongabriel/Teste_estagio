@@ -12,7 +12,7 @@ if(isset($_POST['submit'])){
     $bairro = $_POST['neighborhood'];
     $message = $_POST['message'];
 
-    print_r(array($nome, $email, $phone, $profissao, $money, $city, $bairro, $message));
+    //print_r(array($nome, $email, $phone, $profissao, $money, $city, $bairro, $message));
 }
 
 function dbInsert($nome, $email, $phone, $profissao, $money, $city, $bairro, $message){

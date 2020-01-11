@@ -151,7 +151,7 @@
                         <!-- icone do facebook -->
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="https://www.intagram.com/frisabor/" target="_blank">
+                    <a href="https://www.instagram.com/frisabor/" target="_blank">
                         <!-- icone do insta --> 
                         <i class="fab fa-instagram"></i>
                     </a>
